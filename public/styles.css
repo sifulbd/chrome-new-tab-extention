@@ -1,0 +1,66 @@
+/* Reset */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Top Bar */
+.top-bar {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+}
+
+.left-icons img,
+.right-icons img {
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+/* Apps Grid */
+.apps-grid {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    display: none;
+    flex-wrap: wrap;
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 30;
+}
+
+.apps-grid img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 6px;
+}
