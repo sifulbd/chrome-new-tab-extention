@@ -64,3 +64,8 @@ html {
     height: 32px;
     margin-bottom: 6px;
 }
+.copyright-info {
+    position: fixed;
+    right: 020px;
+    bottom: 10px;
+}
